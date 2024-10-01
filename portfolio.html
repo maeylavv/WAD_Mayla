@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayla's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightgray;
+        }
+
+        header {
+            background-color: maroon;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            margin-top: -20px; 
+        }
+
+        section {
+            margin: 50px 0;
+        }
+
+        section h2 {
+            color: #333;
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+    
+        }
+
+        .about {
+            display: flex;
+            align-items: center;
+            
+        }
+
+        .about img {
+            border-radius: 0%;
+            margin-right: 50px;
+            width: 200px;
+            height: auto;
+        }
+        
+        .image-container {
+            display: flex;
+            justify-content: center; 
+            gap: 30px; 
+        }
+
+        .image-container img {
+            width: 200px; 
+            height: auto; 
+        }
+       
+        .projects, .experience {
+            display: flex;
+            flex-direction: column;
+            border-radius: 100px;
+        }
+
+        .project, .organization {
+            background-color: aliceblue;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: maroon;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1> Welcome To My Portfolio</h1>
+    </header>
+
+    <div class="container">
+
+        <section class="about">
+            <img src="my.jpg" alt="Your Photo">
+            <div> 
+                <h2 style="color:maroon;">Profile</h2>
+                <p style="color:black;">Hello!! My name is Mayla, and I am a student at Telkom University. I consider myself an enthusiastic individual because I am passionate about whatever I do and enjoy exploring new experiences. Information technology is something that really intrigues me since I like to explore new things. Additionally, I possess strong communication skills. Based on my abilities and experience, I am someone who can effectively collaborate within a team.</p>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2 style="color:maroon;">Projects</h2>
+
+            <div class="project">
+                <h3>Academify</h3>
+                <p>Foster strong study motivation among high school students and track their academic progress effectively</p>
+                <div class="image-container">
+                    <img src="figma 3.jpg" alt="Gambar 1">
+                    <img src="figma 1.jpg" alt="Gambar 2">
+                    <img src="figma 4.jpg" alt="Gambar 3">
+                    <img src="figma 5.jpg" alt="Gambar 4">
+                    <img src="figma 2.jpg" alt="Gambar 5">
+            </div>
+            </div>
+            <div class="project">
+                <h3>FulfillPal</h3>
+                <p>Transforming Inventory Management into Effortless Efficiency</p>
+                <div class="image-container">
+                    <img src="figmaa1.jpg" alt="Gambar 1">
+                    <img src="figmaa2.jpg" alt="Gambar 2">
+                    <img src="figmaa3.jpg" alt="Gambar 3">
+                    <img src="figmaa4.jpg" alt="Gambar 4">
+                    <img src="figmaa5.jpg" alt="Gambar 5">
+                </div>
+            </div>
+        </section>
+
+        <section class="experience">
+            <h2 style="color:maroon;">Organization Experience</h2>
+
+            <div class="organization">
+                <h3>Community Service Division - Laboratory Assistant EIM &#128187;</h3>
+                <p>July 2024 - Now</p>
+                <p>Job description :
+                    <ul>
+                        <li>Collaborated with community leaders to implement  educational needs.</li>
+                        <li>Maintained records of experiments and community feedback and ensuring data integrity. </li>
+            </div>
+
+            <div class="organization">
+                <h3>Finance Division - Student Volunteer for International Class Telkom University &#128202; </h3>
+                <p>Jan 2024 - Now</p>
+                <p>Job description : 
+                    <ul>
+                    <li>Presenting sponsorship proposals to Student Volunteer.</li>
+                    <li>Creating Memoranda of Understanding (MoU) for collaboration with sponsors.</li>
+                    </ul>
+                    </p>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p >&copy; 2024 Mayla Fatima - All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
